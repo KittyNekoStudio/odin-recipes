@@ -1,0 +1,36 @@
+h1, h2, h3, p, a, .ingredients, .steps {
+	font-family: "Courier New", sans-serif
+}
+
+body {
+	background-color: #ccdbee;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h1, a {
+	color: #be2ed6;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+.ingredients,
+.steps {
+	font-size: 18px;
+}
+
+.ingredients, .steps {
+	color: #555555;
+}
