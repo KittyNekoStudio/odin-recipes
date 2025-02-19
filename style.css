@@ -1,8 +1,5 @@
-h1, h2, h3, p, a, .ingredients, .steps {
-	font-family: "Courier New", sans-serif
-}
-
 body {
+	font-family: "Courier New", sans-serif;
 	background-color: #ccdbee;
 }
 
@@ -14,12 +11,27 @@ h1, a {
 	color: #be2ed6;
 }
 
+a {
+	display: inline-block;
+	height: 25px;
+}
+
 h2 {
 	font-size: 26px;
 }
 
 h3 {
 	font-size: 22px;
+}
+
+.pages {
+	text-align: center;
+}
+
+.pages ul {
+	display: inline-block;
+	text-align: left;
+	/*list-style-type: none;*/
 }
 
 .description {
